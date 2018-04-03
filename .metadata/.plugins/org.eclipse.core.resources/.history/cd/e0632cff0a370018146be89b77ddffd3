@@ -1,0 +1,36 @@
+package com.sayschj.baseEnhance;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+import java.util.Set;
+
+public class MotherBoard {
+	private static Properties p=new Properties();
+	//将配置文件放在静态代码块中完成初始化
+	static {
+		//类加载器，用于加载配置资源
+		ClassLoader loader=Thread.currentThread().getContextClassLoader();
+		InputStream inStream=loader.getResourceAsStream("plugins.properties");
+		try {
+			p.load(inStream);
+			//初始化
+			init();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	private static void init() {
+		// TODO Auto-generated method stub
+		Set<Object> keys=p.keySet();
+		for(Object key:keys) {
+			String name=(String)key;
+			String className=p.getProperty(name);
+			System.out.println(name+","+className);
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+}
