@@ -1,0 +1,14 @@
+package com.sayschj.JDBCDemo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+//获取jdbc连接对象
+public class ConnectionTest {
+	public static void main(String[] args) throws Exception {
+		//1.加载注册驱动
+		Class.forName("com.mysql.jdbc.Driver");
+		//2.获取连接对象
+		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306:studydemo", "root", "296200336");
+	}
+}

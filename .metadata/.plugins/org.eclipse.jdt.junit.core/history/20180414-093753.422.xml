@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DMLTest" project="StudyCodes" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sayschj.JDBCDemo.DMLTest" time="0.254" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DMLTest]">
+    <testcase name="testInsert" classname="com.sayschj.JDBCDemo.DMLTest" time="0.254" displayname="testInsert" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DMLTest]/[test:testInsert(com.sayschj.JDBCDemo.DMLTest)]"/>
+  </testsuite>
+</testrun>

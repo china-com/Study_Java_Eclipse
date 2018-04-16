@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DDLTest (1)" project="StudyCodes" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sayschj.JDBCDemo.DDLTest" time="0.271" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DDLTest]">
+    <testcase name="testHandleException" classname="com.sayschj.JDBCDemo.DDLTest" time="0.238" displayname="testHandleException" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DDLTest]/[test:testHandleException(com.sayschj.JDBCDemo.DDLTest)]"/>
+    <testcase name="test1" classname="com.sayschj.JDBCDemo.DDLTest" time="0.033" displayname="test1" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DDLTest]/[test:test1(com.sayschj.JDBCDemo.DDLTest)]"/>
+  </testsuite>
+</testrun>
