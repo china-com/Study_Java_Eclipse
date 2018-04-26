@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="DDLTest.testAutoHandleByJava7" project="StudyCodes" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sayschj.JDBCDemo.DDLTest" time="0.22" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DDLTest]">
-    <testcase name="testAutoHandleByJava7" classname="com.sayschj.JDBCDemo.DDLTest" time="0.22" displayname="testAutoHandleByJava7" uniqueid="[engine:junit-vintage]/[runner:com.sayschj.JDBCDemo.DDLTest]/[test:testAutoHandleByJava7(com.sayschj.JDBCDemo.DDLTest)]"/>
-  </testsuite>
-</testrun>

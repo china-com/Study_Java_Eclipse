@@ -9,4 +9,9 @@
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="com.sayschj.baseEnhance.MotherBoard"/>
 <fullyQualifiedTypeName name="com.sayschj.baseEnhance.IUSB"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.Servlet"/>
+<fullyQualifiedTypeName name="com.sayschj.miniprojects.StringUtils"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
