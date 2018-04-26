@@ -18,12 +18,14 @@ public class CalServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		//设置resp、rep的编码格式，避免出现乱码的情况
 		resp.setContentType("text/html;charset=UTF-8");
 		req.setCharacterEncoding("UTF-8");
 		String first = req.getParameter("first");
 		String second = req.getParameter("second");
 		String holder = req.getParameter("holder");
 		Integer result = 0;
+		//调用StringUtils判断是否有数据输入
 		if (StringUtils.hasLength(first) && StringUtils.hasLength(second)) {
 			Integer iFirst = Integer.valueOf(first);
 			Integer iSecond = Integer.valueOf(second);
