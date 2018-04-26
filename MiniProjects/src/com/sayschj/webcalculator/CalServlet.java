@@ -1,4 +1,4 @@
-package com.sayschj.miniprojects.webcalculator;
+package com.sayschj.webcalculator;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 //Java EE第一个小项目：在线简易计算器
 /*
  * 所涉及的类：CalSrvlet.java、StringUtils.java
- * 服务器：TomCat 8.0
+ * 服务器：TomCat 8.5
  */
 public class CalServlet extends HttpServlet {
 

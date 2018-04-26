@@ -9,7 +9,7 @@
 	<!-- 告诉Tomcat来管理我的Servlet -->
 	<servlet>
 		<servlet-name>CalServlet</servlet-name>
-		<servlet-class>com.sayschj.miniprojects.webcalculator.CalServlet</servlet-class>
+		<servlet-class>com.sayschj.webcalculator.CalServlet</servlet-class>
 	</servlet>
 	<!-- Servlet的映射 -->
 	<servlet-mapping>
