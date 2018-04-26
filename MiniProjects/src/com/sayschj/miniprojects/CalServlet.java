@@ -25,7 +25,7 @@ public class CalServlet extends HttpServlet {
 		String second = req.getParameter("second");
 		String holder = req.getParameter("holder");
 		Integer result = 0;
-		//调用StringUtils判断是否有数据输入
+		//调用StringUtils的方法来判断是否有数据输入
 		if (StringUtils.hasLength(first) && StringUtils.hasLength(second)) {
 			Integer iFirst = Integer.valueOf(first);
 			Integer iSecond = Integer.valueOf(second);
@@ -42,8 +42,10 @@ public class CalServlet extends HttpServlet {
 
 		PrintWriter out = resp.getWriter();
 		out.print("<form action='/MiniProjects/CalServlet' method='post'>");
+		//first和second是字符类型，初始值为null，但我们不希望用户看到的是null，所以，如果他们没有被赋值时用空字符串来代替
 		out.print("<input type='number' name='first' value='" + (first == null ? "" : first) + "'/>");
 		out.print("<select name=holder>");
+		//第一次初始化时，下面的条件语句都不满足if，都会执行else语句完成网页的初始化
 		if ("+".equals(holder)) {
 			out.print("<option selected='selected'>+</option>");
 		} else {//如果没有else，+号将消失
