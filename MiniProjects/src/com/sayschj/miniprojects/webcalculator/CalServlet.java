@@ -1,4 +1,4 @@
-package com.sayschj.miniprojects;
+package com.sayschj.miniprojects.webcalculator;
 
 import java.io.IOException;
 import java.io.PrintWriter;

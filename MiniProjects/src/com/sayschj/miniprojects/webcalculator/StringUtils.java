@@ -1,4 +1,4 @@
-package com.sayschj.miniprojects;
+package com.sayschj.miniprojects.webcalculator;
 
 //提供判断输入框内容是否为空的方法
 public class StringUtils {
