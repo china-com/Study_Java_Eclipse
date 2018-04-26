@@ -49,17 +49,17 @@ public class CalServlet extends HttpServlet {
 		}
 		if ("-".equals(holder)) {
 			out.print("<option selected='selected'>-</option>");
-		} else {//如果没有else，+号将消失
+		} else {
 			out.print("<option>-</option>");
 		}
 		if ("*".equals(holder)) {
 			out.print("<option selected='selected'>*</option>");
-		} else {//如果没有else，+号将消失
+		} else {
 			out.print("<option>*</option>");
 		}
 		if ("/".equals(holder)) {
 			out.print("<option selected='selected'>/</option>");
-		} else {//如果没有else，+号将消失
+		} else {
 			out.print("<option>/</option>");
 		}
 		out.print("</select>");
