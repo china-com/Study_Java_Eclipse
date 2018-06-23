@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//√∞≈›∑®≈≈–Ú
 public class BubbleDemo {
 
 	public static void main(String[] args) {

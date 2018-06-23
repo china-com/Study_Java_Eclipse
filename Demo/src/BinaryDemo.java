@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
+//二分法查询
 public class BinaryDemo {
-	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
