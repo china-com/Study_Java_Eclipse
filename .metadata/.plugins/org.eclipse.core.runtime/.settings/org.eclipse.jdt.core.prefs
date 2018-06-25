@@ -1,4 +1,6 @@
+M2_REPO=C\:/Users/sayschj/.m2/repository
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.M2_REPO=E\:/apache-maven-3.5.4/repository
 org.eclipse.jdt.core.classpathVariable.TOMCAT_HOME=E\:/apache-tomcat-8.5.30
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled

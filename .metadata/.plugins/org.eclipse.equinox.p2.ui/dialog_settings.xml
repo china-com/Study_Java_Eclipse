@@ -43,8 +43,8 @@
 		<item value="1221" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="880" key="DIALOG_HEIGHT"/>
-		<item value="-463" key="DIALOG_X_ORIGIN"/>
-		<item value="-33" key="DIALOG_Y_ORIGIN"/>
+		<item value="-292" key="DIALOG_X_ORIGIN"/>
+		<item value="-3" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.SelectableIUsPage">
 		<item value="200" key="DetailsSashWeight"/>
