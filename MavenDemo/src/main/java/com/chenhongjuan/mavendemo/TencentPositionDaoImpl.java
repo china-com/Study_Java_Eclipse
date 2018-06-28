@@ -1,15 +1,18 @@
-package mavendemo;
+package com.chenhongjuan.mavendemo;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+//Dao接口的实现类，实现add()方法，实现向数据库中写入数据
 public class TencentPositionDaoImpl implements TencentPositionDao{
 	public int add(TencentPosition position) {
+		//SQL插入语句
 		String sql = "INSERT INTO tencent_position(p_name, p_link, p_type, p_num, p_location, p_publish_time)"
 				+ " VALUES(?, ?, ?, ?, ?, ?)";
 		Connection conn = null;
 		PreparedStatement pst = null;
+		//设置插入的数据
 		try {
 			conn = MySQLUtils.getConnection();
 			pst = conn.prepareStatement(sql);
@@ -25,6 +28,7 @@ public class TencentPositionDaoImpl implements TencentPositionDao{
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} finally {
+			//关闭数据库的连接
 			if (pst != null) {
 				try {
 					pst.close();

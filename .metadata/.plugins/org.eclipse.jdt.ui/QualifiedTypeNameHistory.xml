@@ -29,8 +29,9 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="mavendemo.TencentPosition"/>
 <fullyQualifiedTypeName name="mavendemo.TencentPositionDao"/>
-<fullyQualifiedTypeName name="mavendemo.TencentPositionDaoImpl"/>
 <fullyQualifiedTypeName name="mavendemo.MySQLUtils"/>
 <fullyQualifiedTypeName name="us.codecraft.webmagic.Spider"/>
 <fullyQualifiedTypeName name="mavendemo.TencentMain"/>
+<fullyQualifiedTypeName name="mavendemo.TencentPositionDaoImpl"/>
+<fullyQualifiedTypeName name="com.chenhongjuan.mavendemo.MySQLUtils"/>
 </qualifiedTypeNameHistroy>

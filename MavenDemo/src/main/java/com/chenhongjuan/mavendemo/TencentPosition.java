@@ -1,5 +1,6 @@
-package mavendemo;
+package com.chenhongjuan.mavendemo;
 
+//职位类，定义职位的名称、职位类别、人数、地点、发布时间
 public class TencentPosition {
 	private String positionName;
 	private String positionLink;
@@ -22,7 +23,7 @@ public class TencentPosition {
 		this.workLocation = workLocation;
 		this.publishTime = publishTime;
 	}
-
+	//设计toString()方法
 	@Override
 	public String toString() {
 		return "TencentPosition [positionName=" + positionName + ", positionLink=" + positionLink + ", positionType="
@@ -30,6 +31,7 @@ public class TencentPosition {
 				+ publishTime + "]";
 	}
 
+	//根据字段自动生成get、set方法
 	public String getPositionName() {
 		return positionName;
 	}

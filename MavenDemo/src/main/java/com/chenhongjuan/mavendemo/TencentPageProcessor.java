@@ -1,4 +1,4 @@
-package mavendemo;
+package com.chenhongjuan.mavendemo;
 
 import java.util.List;
 
@@ -7,7 +7,13 @@ import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
+/*
+ * author：陈红鹃
+ * date:2018/6/24
+ * version:1.1
+ */
 
+//主程序类
 public class TencentPageProcessor implements PageProcessor {
 
 	private Site site = Site.me().setRetryTimes(5).setSleepTime(1000);
@@ -39,35 +45,9 @@ public class TencentPageProcessor implements PageProcessor {
 			position.setWorkLocation(workLocations.get(i));
 			dao.add(position);
 		}
-
-		// String positionName =
-		// page.getHtml().xpath("//tr[@class='odd']/td[1]/a/text()").get();
-		// String positionType =
-		// page.getHtml().xpath("//tr[@class='odd']/td[2]/text()").get();
-		// String positionLink = "https://hr.tencent.com/" +
-		// page.getHtml().xpath("//tr[@class='odd']/td[1]/a/@href").get();
-		// String positionNum =
-		// page.getHtml().xpath("//tr[@class='odd']/td[3]/text()").get();
-		// String workLocation =
-		// page.getHtml().xpath("//tr[@class='odd']/td[4]/text()").get();
-		// String publishTime =
-		// page.getHtml().xpath("//tr[@class='odd']/td[5]/text()").get();
-		// page.putField("positionName", positionName);
-		// page.putField("positionLink", positionLink);
-		// page.putField("positionType", positionType);
-		// page.putField("positionNum", positionNum);
-		// page.putField("workLocation", workLocation);
-		// page.putField("publishTime", publishTime);
-		// TencentPosition position = new TencentPosition();
-		// position.setPositionName(positionName);
-		// position.setPositionLink(positionLink);
-		// position.setPositionType(positionType);
-		// position.setPositionNum(positionNum);
-		// position.setPublishTime(publishTime);
-		// position.setWorkLocation(workLocation);
-		// dao.add(position);
 	}
 
+	//mian方法，程序入口
 	public static void main(String[] args) {
 		Spider.create(new TencentPageProcessor()).addUrl("https://hr.tencent.com/position.php?&start=0")
 				.addPipeline(new JsonFilePipeline("web_code")).thread(100).run();
