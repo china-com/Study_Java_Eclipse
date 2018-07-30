@@ -2140,3 +2140,9 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.codehuas.
 2018-07-01 10:17:57,253 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\Study_Java_Eclipse\CrawlerDemo\src\main\resources
 2018-07-01 10:17:57,254 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-07-01 10:17:57,254 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\Study_Java_Eclipse\CrawlerDemo\src\test\resources
+2018-07-10 11:28:30,581 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-27 21:24:01,672 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-27 21:59:20,722 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-27 21:59:24,660 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.com.demo:DemoCrawer:0.0.1-SNAPSHOT @ E:\workspace\Study_Java_Eclipse\CrawlerDemo\pom.xml.
+2018-07-27 21:59:26,495 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sayschj:mavendemo:0.0.1-SNAPSHOT @ E:\workspace\Study_Java_Eclipse\MavenDemo\pom.xml.
+2018-07-27 21:59:27,090 [Worker-7] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob was canceled
